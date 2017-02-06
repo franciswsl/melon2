@@ -1,0 +1,111 @@
+
+body{min-width: 961px;}
+
+/*轮播图片*/
+#index-banner{position: relative;height: 400px;overflow: hidden;}
+#header-container{position: relative;margin: 0 auto;width: 1920px;}
+#index-banner ul{width: 80px;height: 16px;position: absolute;left: 220px;top: 300px;z-index: 44;}
+#index-banner ul li{width: 8px;height: 8px;border-radius: 50%;border: 1px solid #678532;margin-right: 8px;display: inline-block;}
+#index-banner ul li.on{background-color: #678532;border: none;}
+#banner-list a{position: absolute;}
+/*头部*/
+#index-header{width: 150px;height: 74px;float:left;position: absolute;left: 0;top: 0;background-color: transparent;z-index: 999;}
+#register{width: 40px;height: 28px;font-size: 20px;float: left;margin: 28px 20px 28px 47px;font-family: 'SourceHanSansCN-Light';color: #678532;}
+#login{width: 40px;height: 28px;font-size: 20px;float: left;margin: 28px 0;font-family: 'SourceHanSansCN-Light';color: #678532;}
+/*logo*/
+#logo{width: 106px;height: 350px;float: left;position: absolute;z-index: 9;left: 200px;top: 0;overflow: hidden;}
+
+/*导航*/
+#index-main{width: 100%;height: 447px;}
+#public-container{position: relative;margin: 0 auto;width: 960px;/*background: green;*/}
+.navbar{height:36px;border-bottom:9px solid #d2d7d9;margin-top:30px;}
+.navbar li{float: left;display:block; height:36px;width:96px;text-align:center;margin-left:78px;font-size: 21px;color: #8d8e8e;font-family: '方正兰亭黑-GBK';cursor:pointer;}
+.navbar #tab5{height:36px;width:110px;text-align:center;}
+.navbar .checked,.navbar li:hover{color:#678532;border-bottom: 9px solid #678532;}
+.groupdiv{margin: 70px auto 0;}
+.groupdiv #pic{width: 391px;height: 237px;float: left;margin-right: 48px;}
+.groupdiv #text{float: left;width: 510px;}
+.groupdiv #text h3{font-size: 42px;font-family: '方正兰亭黑-GBK';margin: 12px auto 12px 3px;}
+.groupdiv #text p{font-size: 21px;font-family: 'SourceHanSansCN-Light';margin: 0 auto 12px 3px;}
+.groupdiv #text a{width: 196px;height: 42px;border: 2px solid #678532;line-height: 42px;font-size: 20px;font-family: font-family: 'SourceHanSansCN-Light';display: block;text-align: center;border-radius: 6px;}
+#group2{display: none;}
+#group3{display: none;}
+#group4{display: none;}
+#group5{display: none;}
+
+/*购物车*/
+#cart-header{width: 961px;height: 162px;background: #eaf1e9;margin: 0 auto;}
+#cart-header h3{float: left;font-size: 42px;font-family: '方正兰亭黑-GBK';margin: 56px 316px 56px 0;}
+#cart-header ul{height: 52px;-webkit-transform: translateY(119px);border-bottom:9px solid #d2d7d9;}
+#cart-header li{height: 52px;float: left;font-size: 21px;margin-left: 63px;font-family: 'SourceHanSansCN-Light';color: #8d8e8e;cursor:pointer;}
+#cart-header .checked,#cart-header li:hover{color:#678532;border-bottom: 9px solid #678532;}
+#cartdiv{height: 360px;}
+#cart1,#cart2,#cart3,#cart4{padding:10px 20px;height: 360px;margin: 40px auto;position: relative;}
+#cart-info{ width: 800px;margin:0 auto;overflow: hidden;height: 380px;position: relative;}
+.prev,.next{position: absolute;width: 45px;height: 45px;cursor: pointer;top:160px;}
+.next{right: 20px;}
+.prev2,.next2{position: absolute;width: 45px;height: 45px;cursor: pointer;top:160px;}
+.next2{right: 20px;}
+#cart-info li{float: left;margin-left: 46px;}
+#cart-info ul{position: absolute;left: 0;}
+#cart-info .photo{width: 180px;height: 180px;}
+#cart-info .text h5{font-size: 26px;font-family: '方正兰亭黑-GBK';margin: 0 auto 12px 20px;}
+#cart-info .text i{font-size: 22px;font-family: 'PFDinTextCompPro-ThinItal';margin: 0 auto 15px 20px;}
+#cart-info .enter{width: 68px;height: 28px;border: 2px solid #678532;border-radius: 8px;font-size: 18px;line-height: 28px;text-align: center;font-family: 'SourceHanSansCN-Light';margin: 0 auto 48px 20px;}
+#cart-info .enter:hover{color: #fff;background: #678532;}
+#cart2{display: none;}
+#cart3{display: none;}
+#cart4{display: none;}
+
+/*了解更多*/
+#know{height: 240px;border-top: 4px solid #d2d7d9;}
+#know p{font-size: 22px;font-family: 'SourceHanSansCN-Light';width: 960px;text-align: center;margin: 62px 0 30px;}
+#know .all{font-size: 20px;font-family: 'SourceHanSansCN-Light';border: 2px solid #678532;border-radius: 8px;width: 128px;height: 34px;line-height: 34px;text-align: center;margin: 0 auto 0 410px;}
+
+#middle{height: 110px;position: relative;overflow: hidden;}
+
+/*加入我们*/
+#join{height: 500px;}
+#join h3{font-size: 36px;font-family: '方正兰亭黑-GBK';margin: 51px auto 30px 0;}
+#join #info{height: 560px;border-top: 6px solid #d2d7d9;}
+#info #info-text{float: left;height: 330px;width: 460px;margin-right: 40px;}
+#info #info-text h4{font-size: 26px;font-family: '方正兰亭黑-GBK';margin: 49px auto 27px 0;}
+#info #info-text p{font-size: 20px;font-family: 'SourceHanSansCN-Light';color: #678532;line-height: 44px;}
+#info-text .more1{width: 198px;height: 46px;font-size: 22px;font-family: 'SourceHanSansCN-Light';border: 2px solid #678532;border-radius: 6px;line-height: 46px;text-align: center;margin-top: 24px;}
+#info #info-photo{width: 460px;height: 286px;float: left;margin: 38px 0 66px;}
+#info-photo .joinus{width: 140px;height: 44px;border-radius: 6px;line-height: 44px;font-size: 22px;font-family: 'SourceHanSansCN-Light';text-align: center;color: #fff;background: #678532;transform: translate(280px,-108px);cursor: pointer;}
+
+/*尾部介绍*/
+#footer-info{background: #eaf1e9;height: 760px;margin-bottom: 6px;}
+#footer-info img{margin: 40px 0 51px;}
+#footer-info .more2{width: 162px;height: 40px;font-size: 21px;font-family: 'SourceHanSansCN-Light';border: 2px solid #fff;border-radius: 6px;line-height: 40px;text-align: center;color: #fff;transform: translate(770px,-160px);cursor: pointer;}
+
+/*关于我们*/
+#about{height: 126px;width: 960px;border-top: 6px solid #d2d7d9;}
+#about #about-nav{margin: 30px 90px 20px;}
+#about-nav li{float: left;font-size: 19px;font-family: '方正兰亭黑-GBK';margin-left: 40px;}
+#about-nav #one i{width: 26px;height: 20px;background-image: url(../img/about1.png);background-repeat: no-repeat;margin-right: 10px;transform: translateY(4px);}
+#about-nav #two i{width: 20px;height: 20px;background-image: url(../img/about2.png);background-repeat: no-repeat;margin-right: 10px;transform: translateY(4px);}
+#about-nav #three i{width: 29px;height: 20px;background-image: url(../img/about3.png);background-repeat: no-repeat;margin-right: 10px;transform: translateY(4px);}
+#about-nav #four i{width: 19px;height: 20px;background-image: url(../img/about4.png);background-repeat: no-repeat;margin-right: 10px;transform: translateY(4px);}
+#about-nav #five i{width: 21px;height: 20px;background-image: url(../img/about5.png);background-repeat: no-repeat;margin-right: 10px;transform: translateY(3px);}
+#about #sns{margin: auto 220px 0 360px;}
+#sns li{float: left;margin: 33px 0 auto 30px;}
+#sns #one i{width: 23px;height: 18px;background-image: url(../img/sns1.png);background-repeat: no-repeat;}
+#sns #two i{width: 23px;height: 18px;background-image: url(../img/sns2.png);background-repeat: no-repeat;}
+#sns #three i{width: 19px;height: 19px;background-image: url(../img/sns3.png);background-repeat: no-repeat;}
+#sns #four i{width: 16px;height: 18px;background-image: url(../img/sns4.png);background-repeat: no-repeat;}
+
+/*联系我们*/
+#contact{height: 219px;border-top: 6px solid #d2d7d9;border-bottom: 6px solid #d2d7d9;}
+#contact #left,#contact #right{float: left;}
+#contact #contact-title{width: 74px;height: 33px;margin: 23px auto 29px 0;}
+#contact #contact-main li{margin-bottom: 23px;color: #678532;font-size: 18px;margin-left: 5px;}
+#contact-main #one{font-family: '方正兰亭黑-GBK';}
+#contact-main #one i{width: 15px;height: 19px;background-image: url(../img/contact2.png);background-repeat: no-repeat;transform: translateY(5px);margin-right: 18px;}
+#contact-main #two,#contact-main #three{font-family: 'PFDinTextCompPro-ThinItal';}
+#contact-main #two i{width: 16px;height: 16px;background-image: url(../img/contact3.png);background-repeat: no-repeat;transform: translateY(2px);margin-right: 18px;}
+#contact-main #three i{width: 18px;height: 13px;background-image: url(../img/contact4.png);background-repeat: no-repeat;transform: translateY(3px);margin-right: 18px;}
+#contact #right{margin: 25px auto auto 317px;}
+#contact #right #qr1,#contact #right #qr2{float: left;margin-right: 26px;}
+#contact #right p{width: 112px;text-align: center;font-size: 18px;font-family: '方正兰亭黑-GBK';color: #678532;margin-top: 16px;}

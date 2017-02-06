@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script type="text/javascript" src="js/banner.js"></script>
+	<script type="text/javascript" src="js/main.js"></script> 
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	
+	<div id="index-banner">
+		<div id="public-container">
+			<a href="#" id="banner-info"></a>
+			<ul id="list"></ul>
+			<div id="banner-list">
+				<a href="#" target="_blank"><img src="img/banner1.jpg" alt="双色冰淇淋" /></a>
+				<a href="#" target="_blank"><img src="img/banner2.jpg" alt="双色冰淇淋" /></a>
+	            <a href="#" target="_blank"><img src="img/banner3.jpg" alt="双色冰淇淋" /></a>
+	            <a href="#" target="_blank"><img src="img/banner4.jpg" alt="双色冰淇淋" /></a>
+			</div>
+			<div id="index-header">
+				<div id="register">注册</div>
+				<div id="login">登录</div>
+			</div>
+			<div id="logo"><img src="img/logo.png"></div>
+		</div>
+	</div>
+
+	<div id="index-main">
+		<div id="public-container">
+			<div class="navbar" id="nav">
+				<ul>
+					<li id="tab1" onclick="contentTab('group1')">关于西瓜</li>
+					<li id="tab2" onclick="contentTab('group2')">种植基地</li>
+					<li id="tab3" onclick="contentTab('group3')">火热预售</li>
+					<li id="tab4" onclick="contentTab('group4')">众筹吃瓜</li>
+					<li id="tab5" onclick="contentTab('group5')">加入种植者</li>
+				</ul>
+			</div>
+			<div class="groupdiv">
+				<div id="group1">
+					<div id="pic"><img src="img/info1.jpg"></div>
+					<div id="text">
+						<h3>什么是双色冰淇淋西瓜？</h3>
+						<p>双色冰淇淋西瓜计划是一个创新的农业计划，完整打通消费者到种植业者的供需链条，逐步将消费者需求传导给种植业者。</p>
+						<a href="#"><div>点击了解更多...</div></a>
+					</div>
+				</div>
+				<div id="group2">
+					<div id="pic"><img src="img/info2.jpg"></div>
+					<div id="text">
+						<h3>什么是双色冰淇淋西瓜？</h3>
+						<p>双色冰淇淋西瓜计划是一个创新的农业计划，完整打通消费者到种植业者的供需链条，逐步将消费者需求传导给种植业者。</p>
+						<a href="#"><div>点击了解更多...</div></a>
+					</div>	
+				</div>
+				<div id="group3">
+					<div id="pic"><img src="img/info3.jpg"></div>
+					<div id="text">
+						<h3>什么是双色冰淇淋西瓜？</h3>
+						<p>双色冰淇淋西瓜计划是一个创新的农业计划，完整打通消费者到种植业者的供需链条，逐步将消费者需求传导给种植业者。</p>
+						<a href="#"><div>点击了解更多...</div></a>
+					</div>
+				</div>
+				<div id="group4">
+					<div id="pic"><img src="img/info4.jpg"></div>
+					<div id="text">
+						<h3>什么是双色冰淇淋西瓜？</h3>
+						<p>双色冰淇淋西瓜计划是一个创新的农业计划，完整打通消费者到种植业者的供需链条，逐步将消费者需求传导给种植业者。</p>
+						<a href="#"><div>点击了解更多...</div></a>
+					</div>
+				</div>
+				<div id="group5">
+					<div id="pic"><img src="img/info5.jpg"></div>
+					<div id="text">
+						<h3>什么是双色冰淇淋西瓜？</h3>
+						<p>双色冰淇淋西瓜计划是一个创新的农业计划，完整打通消费者到种植业者的供需链条，逐步将消费者需求传导给种植业者。</p>
+						<a href="#"><div>点击了解更多...</div></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<div id="cart-header">
+		<div id="public-container">
+			<h3>西瓜购物车</h3>
+			<div class="cart-navbar">
+				<ul>
+					<li id="nav1" onclick="contentNav('cart1')">全部</li>
+					<li id="nav2" onclick="contentNav('cart2')">单品</li>
+					<li id="nav3" onclick="contentNav('cart3')">团购</li>
+					<li id="nav4" onclick="contentNav('cart4')">套餐</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="cartdiv">
+		<div id="public-container">
+			<div id="cart1">
+		        <span class="prev" id="prev"><img src="img/up1.png"></span>
+		        <span class="prev2" id="prev2" style="display:none;"><img src="img/up2.png"></span>
+		        <span class="next" id="next"><img src="img/down1.png"></span>
+		        <span class="next2" id="next2" style="display:none;"><img src="img/down2.png"></span>
+		        <div id="cart-info">
+		            <ul>
+		                <li>
+		                    <div class="photo"><img src="img/cart1.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart2.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart3.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart4.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+			<div id="cart2">
+		        <span class="prev no_click1" id="prev"><img src="img/up1.png"></span>
+		        <span class="next " id="next"><img src="img/down1.png"></span>
+		        <div id="cart-info">
+		            <ul>
+		                <li>
+		                    <div class="photo"><img src="img/cart1.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart2.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart3.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart4.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+			<div id="cart3">
+		        <span class="prev" id="prev"><img src="img/up1.png"></span>
+		        <span class="prev2" id="prev2" style="display:none;"><img src="img/up2.png"></span>
+		        <span class="next" id="next"><img src="img/down1.png"></span>
+		        <span class="next2" id="next2" style="display:none;"><img src="img/down2.png"></span>
+		        <div id="cart-info">
+		            <ul>
+		                <li>
+		                    <div class="photo"><img src="img/cart1.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart2.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart3.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart4.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+			<div id="cart4">
+		        <span class="prev no_click1" id="prev"><img src="img/up1.png"></span>
+		        <span class="next " id="next"><img src="img/down1.png"></span>
+		        <div id="cart-info">
+		            <ul>
+		                <li>
+		                    <div class="photo"><img src="img/cart1.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart2.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart3.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		                <li>
+		                    <div class="photo"><img src="img/cart4.png"></div>
+		                    <div class="text">
+		                        <h5>双色冰淇淋西瓜</h5>
+		                        <i>&yen;199.00/个</i>
+		                    </div>
+		                    <a href="#"><div class="enter">确定</div></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+
+			<script type="text/javascript">
+		         $(function(){
+		             var oPic=$('#cart-info').find('ul');
+		             var oImg=oPic.find('li');
+		             var oLen=oImg.length;
+		             var oLi=oImg.width();
+		             var prev=$("#prev");
+		             var next=$("#next");
+
+		           oPic.width(oLen*260);//计算总长度
+		             var iNow=0;
+		             var iTimer=null;
+		             prev.click(function(){
+		                  if(iNow>0){  
+		                   iNow--;
+
+		                  }
+		                 ClickScroll();
+		             })
+		             next.click(function(){
+		                 if(iNow<oLen-3){ 
+		                     iNow++
+		                 }
+		                 ClickScroll();
+		             })
+
+		             function ClickScroll(){
+		                 oPic.animate({left:-iNow*260})
+		             }
+
+		         })
+
+		 
+		    </script>
+
+		    <script type="text/javascript">
+		    	chose();
+		    </script>
+
+		</div>
+	</div>
+
+	<div id="public-container">
+		<div id="know">
+			<p>请点击下面图标了解查看更多产品</p>
+			<div class="all"><a href="#">全部商品</a></div>
+		</div>
+	</div>
+	
+	<div id="middle">
+		<div id="public-container">
+			<img src="img/middle.jpg">
+		</div>
+	</div>
+
+	<div id="join">
+		<div id="public-container">
+			<h3>加入种植者</h3>
+			<div id="info">
+				<div id="info-text">
+					<h4>种植者介绍——一群有温度的农民</h4>
+					<p>这些种植业者中，最长参与种植双色冰淇淋西瓜的长达16年之久，由于瓜期短，往往这些种植业者起早贪黑，配合物流宅配系统，将最优秀的瓜送到我们手中。</p>
+					<a href="#"><div class="more1">点击了解更多...</div></a>
+				</div>
+				<div id="info-photo"><img src="img/join.jpg"><div class="joinus">加入我们</div></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer-info">
+		<div id="public-container">
+			<img src="img/info.jpg">
+			<div class="more2">点击了解更多...</div>
+		</div>
+	</div>
+
+	<div id="public-container">	
+		<div id="about">
+			<ul id="about-nav">
+				<li id="one"><a href=""><i></i>新手指南</a></li>
+				<li id="two"><a href=""><i></i>付款方式</a></li>
+				<li id="three"><a href=""><i></i>配送方式</a></li>
+				<li id="four"><a href=""><i></i>售后服务</a></li>
+				<li id="five"><a href=""><i></i>关于我们</a></li>
+			</ul>
+			<ul id="sns">
+				<li id="one"><a href=""><i></i></a></li>
+				<li id="two"><a href=""><i></i></a></li>
+				<li id="three"><a href=""><i></i></a></li>
+				<li id="four"><a href=""><i></i></a></li>
+			</ul>
+		</div>	
+		<div id="contact">
+			<div id="left">
+				<div id="contact-title"><img src="img/contact1.jpg"></div>
+				<ul id="contact-main">
+					<li id="one"><i></i>西安市碑林区二环创意设计中心4-102</li>
+					<li id="two"><i></i>400-077-5757</li>
+					<li id="three"><i></i>surpassingco@163.com</li>
+				</ul>
+			</div>
+			<div id="right">
+				<div id="qr1"><img src="img/qr1.jpg"><p>招募专用</p></div>
+				<div id="qr2"><img src="img/qr2.jpg"><p>公众号</p></div>
+			</div>
+		</div>
+		<div id="public-footer">
+			<img src="img/footer.jpg">
+		</div>
+	</div>	
+</body>
+</html>
